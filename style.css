@@ -1,0 +1,1999 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #303338;
+} 
+.main-container {
+    width: 100%;
+    height: 185vh;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  background-color:  #484B4C;
+  padding: 15px;
+  font-family: Poppins;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-radius: 2.5px;
+}
+.nav-list ul{
+  list-style: none;
+  display: flex;
+}
+.nav-list li{
+  margin: 0px 20px;
+  padding-top: 5px;
+  font-size: 1.2rem;
+}
+.nav-list li:hover{
+  text-decoration: underline 2px solid;
+  cursor: pointer;
+}
+.nav-list li a{
+  text-decoration: none;
+  color: black;
+}
+.hidden-text1 {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+img {
+  width: 150px;
+  height: 120px;
+  margin: 20px auto;
+  display: flex;
+  padding-top: 65px;
+}
+.about-details1{
+  display: flex;
+  justify-content: center;
+  margin: -15px auto;
+  font-family: Poppins;
+  text-align: center;
+}
+.about-details1 span {
+  font-size: 20px;
+}
+.line {
+  border-bottom: 2px solid ;
+  width: 650px;
+  height: 25px;
+  margin:  auto;
+}
+.About-details2 {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  font-family: Poppins;
+  text-align: center;
+}
+.SKILLS {
+  flex-basis: 30%;
+}
+.SKILLS h3{
+  text-decoration: underline 2px solid;
+  font-size: 1.3rem;
+}
+.SKILLS ul {
+  list-style: none;
+}
+.SKILLS svg {
+  font-size:  30px;
+  padding-top: 8px;
+}
+.html {
+  fill: #DD4B34;
+}
+.css {
+  fill: #275FE8;
+}
+.javascript {
+  fill: #F0CB49;
+}
+.python {
+  fill:  rgb(55,118,171);
+}
+.HOBBIES {
+  flex-basis: 30%;
+}
+.HOBBIES h3{
+  text-decoration: underline 2px solid;
+  font-size: 1.3rem;
+}
+.HOBBIES ul {
+  list-style: none;
+}
+.HOBBIES li {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1.5px;
+}
+.hidden-text2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+.line2 {
+  border-bottom: 2px solid ;
+  width: 1000px;
+  height: 200px;
+  margin:  auto;
+}
+.Project-details1{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.body-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: Poppins;
+  row-gap:  2px;
+  width: 100%;
+  height: 20vh;
+  font-size: 20px;
+}
+.Project-details1 {
+  font-family: Poppins;
+}
+.Project-details2-1 {
+  flex-basis: 30%;
+}
+.Project-details2-1 li a{
+  text-decoration: none;
+  color: black;
+}
+.Project-details2-2 {
+  flex-basis: 30%;
+}
+.Project-details2-2 li a{
+  text-decoration: none;
+  color: black;
+}
+.Project-details2-3 {
+  flex-basis: 5%;
+}
+.Project-details2-3 li a{
+  text-decoration: none;
+  color: black;
+}
+.Project-details2-1 li:hover{
+  text-decoration: underline 2px solid;
+  cursor: pointer;
+}
+.Project-details2-2 li:hover{
+  text-decoration: underline 2px solid;
+  cursor: pointer;
+}
+.Project-details2-3 li:hover{
+  text-decoration: underline 2px solid;
+  cursor: pointer;
+}
+.line3 {
+  border-bottom: 2px solid ;
+  width: 1200px;
+  height: 200px;
+  margin:  auto;
+}
+.footer-container  {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 100px;
+}
+.Contact-details1{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  font-family: Poppins;
+}
+.fa-facebook {
+  font-size: 30px;
+  color: #4064AC;
+}
+.fa-facebook:hover{
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fa-instagram{
+  font-size: 30px;
+  color: #D74077;
+}
+.fa-instagram:hover{
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fa-twitter{
+  font-size: 30px;
+  color: #3D96E9;
+}
+.fa-twitter:hover{
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fa-github{
+  font-size: 30px;
+  color: #171515;
+}
+.fa-github:hover{
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  }
+  40%, 43% {
+  -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+  }
+  70% {
+  -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(0,-4px,0);
+  transform: translate3d(0,-4px,0);
+  }
+  }
+  
+  @keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  }
+  40%, 43% {
+  -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+  }
+  70% {
+  -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  }
+  90% { -webkit-transform: translate3d(0,-4px,0); transform: translate3d(0,-4px,0);
+  }
+}
+.line4 {
+  border-bottom: 2px solid ;
+  width: 1300px;
+  margin: -100px auto; 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 390px) {
+  .main-container {
+    height: 225vh;
+    width: 100%
+  }
+    .nav-list {
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+
+
+@media only screen and (min-width: 391px) and (max-width: 393px) { 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -8px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 8.5px;
+      font-size: 1.1rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media screen and (max-width: 394px) { 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -8px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 9.1px;
+      font-size: 1.1rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 395px) and (max-width: 399px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -8px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 9.2px;
+      font-size: 1.1rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 396px) and (max-width: 402px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -8px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 10px;
+      font-size: 1.1rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 403px) and (max-width: 408px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -8px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 11px;
+      font-size: 1.1rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 409px) and (max-width: 416px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -8px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 12px;
+      font-size: 1.1rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 417px) and (max-width: 419px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -8px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 13px;
+      font-size: 1.1rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 55px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 425px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -4px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 13px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 75px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 428px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -3px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 13px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 80px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 429px) and (max-width: 436px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -4px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 14px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 85px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 437px) and (max-width: 442px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -4px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 15px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 90px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 443px) and (max-width: 454px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -4px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 17px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 95px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 455px) and (max-width: 467px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -4px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 19px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 100px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 468px) and (max-width: 475px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -4px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 21px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 103px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+@media only screen and (min-width: 476px) and (max-width: 1075px){ 
+  .main-container {
+    height: 225vh;
+    width: 100%
+   }
+    .nav-list {
+      overflow-x: hidden;
+    }
+    .nav-list h2 {
+      margin-left: -4px;
+    }
+    .nav-list li {
+      padding: 0;
+      margin: 0px 22px;
+      font-size: 1.12rem;
+    }
+    .about-details1 {
+      font-size: 14px;
+    }
+    .about-details1 span{
+      font-size: 18px;
+    }
+    .SKILLS h3 {
+      font-size: 20px;
+    }
+    .SKILLS ul {
+      font-size: .1px;
+    }
+    .HOBBIES h3 {
+      font-size: 20px;
+    }
+    .HOBBIES li {
+      font-size: 17px;
+    }
+    .nav-list ul {
+      padding-top: 5px;
+    }
+    img {
+      margin-top: -40px;
+    }
+    .line {
+      width: 100%;
+      height: 5.1vh;
+    }
+    .line2 {
+      width: 100%;
+    }
+    .SKILLS {
+      flex-basis: 40%;
+    }
+    .HOBBIES {
+      flex-basis: 50%;
+    }
+    .line3 {
+      width: 100%;
+    }
+    .body-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .footer-container  {
+      gap: 103px;
+    }
+    .line4 {
+      width: 100%;
+    }
+    .Project-details1 h2 {
+      font-size: 22px;
+    }
+    .Project-details2-1 {
+      font-size: 19px;
+    }
+    .Project-details2-2 {
+      font-size: 19px;
+    }
+    .Project-details2-3 {
+      font-size: 19px;
+    }
+    .Contact-details1 h2 {
+      font-size: 22px;
+    }
+    .fa-facebook {
+      font-size: 25px;
+    }
+    .fa-instagram {
+      font-size: 25px;
+    }
+    .fa-twitter{
+      font-size: 25px;
+    }
+    .fa-github{
+      font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
